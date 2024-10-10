@@ -1,0 +1,21 @@
+{
+    "name": "hp/background-image-remover",
+    "autoload": {
+        "psr-4": {
+            "Hp\\BackgroundImageRemover\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LWHA"
+        }
+    ],
+    "require": {
+        "codewithkyrian/transformers": "^0.5.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "codewithkyrian/transformers-libsloader": true
+        }
+    }
+}
