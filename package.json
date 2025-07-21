@@ -1,0 +1,11 @@
+{
+  "name": "background-image-remover",
+  "version": "1.0.0",
+  "description": "PHP Background Image Remover using Transformers",
+  "scripts": {
+    "build": "echo 'No build step required for PHP project' && mkdir -p dist && cp -r *.php *.jpg dist/ 2>/dev/null || true"
+  },
+  "keywords": ["php", "image-processing", "background-removal"],
+  "author": "LWHA",
+  "license": "ISC"
+}
